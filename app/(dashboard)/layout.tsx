@@ -1,3 +1,4 @@
+
 import Navbar from "../components/layout/Navbar";
 import Sidebar from "../components/layout/Sidebar";
 
@@ -12,6 +13,7 @@ return(
     <div className="w-full ml-60">
         <div className="fixed top-0 w-full left-0 z-10 ml-60">
             <Navbar/>
+            
         </div>
     <div style={{marginTop:"35px"}}>{children}</div>
     </div>

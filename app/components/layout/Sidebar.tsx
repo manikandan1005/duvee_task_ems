@@ -4,9 +4,9 @@ import React from 'react'
 export default function Sidebar() {
   const menuItem = [
     { label: "Employees", link: "/employees" },
-    { label: "Inbox", link: "" },
-    { label: "Addences", link: "" },
-    { label: "Leave Request", link: "" },
+    { label: "Inbox", link: "/empty" },
+    { label: "Addences", link: "/empty" },
+    { label: "Leave Request", link: "/empty" },
     { label: "Profile", link: "/profile" }
   ]
   return (
