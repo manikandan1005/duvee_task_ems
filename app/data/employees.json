@@ -1,0 +1,279 @@
+[
+  {
+    "employeeId": "EMP-1779563303150",
+    "password": "Duve@123",
+    "firstName": "Manikandan",
+    "lastName": "S",
+    "email": "ceitmanikandan24@gmail.com",
+    "phone": "9361122418",
+    "gender": "Male",
+    "bloodGroup": "O+",
+    "designation": "MERN",
+    "team": "Developement",
+    "managerName": "-",
+    "employmentType": "Full Time",
+    "shiftTiming": "9 AM - 5 PM",
+    "status": "Active",
+    "dateOfBirth": "2003-05-10",
+    "joiningDate": "2026-05-25",
+    "skills": [
+      "react"
+    ],
+    "emergencyContact": {
+      "name": "Sundararajan ",
+      "relation": "Parent",
+      "number": "9003577486"
+    },
+    "education": {
+      "degree": "asd",
+      "college": "s",
+      "yearOfPassing": "2024"
+    },
+    "bankDetails": {
+      "bankName": "ma",
+      "accountHolderName": "mani",
+      "accountNumber": "9361122418",
+      "ifscCode": "SBIN0001234",
+      "accountType": "Savings"
+    },
+    "documents": {
+      "aadhaar": "111111111111",
+      "pan": "ABCDE1234F"
+    },
+    "updatedAt": "2026-05-24T11:28:40.922Z",
+    "profileImage": "/api/uploads/1779622120914.jpg"
+  },
+  {
+    "employeeId": "EMP-1779564287841",
+    "password": "Duve@123",
+    "firstName": "krishna",
+    "lastName": "kk",
+    "email": "krishna123@gmail.com",
+    "phone": "9876543210",
+    "gender": "Male",
+    "bloodGroup": "B+",
+    "designation": "Flutter Developer",
+    "team": "Developement",
+    "managerName": "Sujai",
+    "employmentType": "Full Time",
+    "shiftTiming": "9 AM - 5 PM",
+    "status": "Active",
+    "dateOfBirth": "2002-11-26",
+    "joiningDate": "2025-06-01",
+    "skills": [
+      "flutter ",
+      "java",
+      "mysql",
+      "Go Lang"
+    ],
+    "emergencyContact": {
+      "name": "Manikandan . S",
+      "relation": "Friend",
+      "number": "9361122418"
+    },
+    "education": {
+      "degree": "BCA",
+      "college": "Bishop Heber College",
+      "yearOfPassing": "2024"
+    },
+    "bankDetails": {
+      "bankName": "xyz",
+      "accountHolderName": "zncs",
+      "accountNumber": "1234567890",
+      "ifscCode": "SBIN0001234",
+      "accountType": "Savings"
+    },
+    "documents": {
+      "aadhaar": "",
+      "pan": ""
+    },
+    "updatedAt": "2026-05-24T11:32:13.801Z",
+    "profileImage": "/api/uploads/1779622333797.jpg"
+  },
+    {
+    "employeeId": "EMP-1779565304123",
+    "password": "Duve@123",
+    "firstName": "Arun",
+    "lastName": "Kumar",
+    "email": "arunkumar.dev@gmail.com",
+    "phone": "9123456781",
+    "gender": "Male",
+    "bloodGroup": "A+",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "managerName": "Sujai",
+    "employmentType": "Full Time",
+    "shiftTiming": "9 AM - 5 PM",
+    "status": "Active",
+    "dateOfBirth": "2001-08-14",
+    "joiningDate": "2025-07-10",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "React"
+    ],
+    "emergencyContact": {
+      "name": "Kumaravel",
+      "relation": "Father",
+      "number": "9001122334"
+    },
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Loyola College",
+      "yearOfPassing": "2023"
+    },
+    "bankDetails": {
+      "bankName": "HDFC Bank",
+      "accountHolderName": "Arun Kumar",
+      "accountNumber": "4587963214",
+      "ifscCode": "HDFC0001234",
+      "accountType": "Savings"
+    },
+    "documents": {
+      "aadhaar": "222233334444",
+      "pan": "ARUNK1234P"
+    },
+    "updatedAt": "2026-05-24T12:10:20.922Z",
+    "profileImage": "/api/uploads/1779625001201.jpg"
+  },
+  {
+    "employeeId": "EMP-1779566305789",
+    "password": "Duve@123",
+    "firstName": "Priya",
+    "lastName": "R",
+    "email": "priya.r@gmail.com",
+    "phone": "9876501234",
+    "gender": "Female",
+    "bloodGroup": "AB+",
+    "designation": "Backend Developer",
+    "team": "Developement",
+    "managerName": "Manikandan",
+    "employmentType": "Full Time",
+    "shiftTiming": "10 AM - 6 PM",
+    "status": "Active",
+    "dateOfBirth": "2000-12-21",
+    "joiningDate": "2025-08-15",
+    "skills": [
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Docker"
+    ],
+    "emergencyContact": {
+      "name": "Ramesh",
+      "relation": "Brother",
+      "number": "9345612789"
+    },
+    "education": {
+      "degree": "B.E CSE",
+      "college": "Anna University",
+      "yearOfPassing": "2022"
+    },
+    "bankDetails": {
+      "bankName": "ICICI Bank",
+      "accountHolderName": "Priya R",
+      "accountNumber": "9988776655",
+      "ifscCode": "ICIC0005678",
+      "accountType": "Savings"
+    },
+    "documents": {
+      "aadhaar": "555566667777",
+      "pan": "PRIYA5678L"
+    },
+    "updatedAt": "2026-05-24T12:15:45.111Z",
+    "profileImage": "/api/uploads/1779625667788.jpg"
+  },
+  {
+    "employeeId": "EMP-1779567306890",
+    "password": "Duve@123",
+    "firstName": "Vignesh",
+    "lastName": "M",
+    "email": "vignesh.m@gmail.com",
+    "phone": "9784512360",
+    "gender": "Male",
+    "bloodGroup": "O-",
+    "designation": "QA Tester",
+    "team": "Testing",
+    "managerName": "Sujai",
+    "employmentType": "Full Time",
+    "shiftTiming": "9 AM - 5 PM",
+    "status": "Active",
+    "dateOfBirth": "1999-03-17",
+    "joiningDate": "2025-09-01",
+    "skills": [
+      "Selenium",
+      "Postman",
+      "Jest",
+      "Manual Testing"
+    ],
+    "emergencyContact": {
+      "name": "Mahesh",
+      "relation": "Friend",
+      "number": "9012345678"
+    },
+    "education": {
+      "degree": "MCA",
+      "college": "SRM University",
+      "yearOfPassing": "2021"
+    },
+    "bankDetails": {
+      "bankName": "SBI",
+      "accountHolderName": "Vignesh M",
+      "accountNumber": "4455667788",
+      "ifscCode": "SBIN0007890",
+      "accountType": "Savings"
+    },
+    "documents": {
+      "aadhaar": "888899990000",
+      "pan": "VIGNM4321Q"
+    },
+    "updatedAt": "2026-05-24T12:20:55.450Z",
+    "profileImage": "/api/uploads/1779626000456.jpg"
+  },
+  {
+  "employeeId": "EMP-1779568307991",
+  "password": "Vishnu@123",
+  "firstName": "Sri",
+  "lastName": "Vishnu",
+  "email": "ssrivishnu002@gmail.com",
+  "phone": "9876547890",
+  "gender": "Male",
+  "bloodGroup": "A+",
+  "designation": "HR Manager",
+  "team": "Human Resources",
+  "managerName": "-",
+  "employmentType": "Full Time",
+  "shiftTiming": "9 AM - 5 PM",
+  "status": "Active",
+  "dateOfBirth": "1998-09-12",
+  "joiningDate": "2025-01-15",
+  "skills": [
+    "Management",
+    "Communication",
+    "Recruitment"
+  ],
+  "emergencyContact": {
+    "name": "Ramesh",
+    "relation": "Brother",
+    "number": "9000011122"
+  },
+  "education": {
+    "degree": "MBA",
+    "college": "SRM Institute of Science and Technology",
+    "yearOfPassing": "2021"
+  },
+  "bankDetails": {
+    "bankName": "Indian Bank",
+    "accountHolderName": "Sri Vishnu",
+    "accountNumber": "5544332211",
+    "ifscCode": "IDIB000S123",
+    "accountType": "Savings"
+  },
+  "documents": {
+    "aadhaar": "444455556666",
+    "pan": "SRIVI1234K"
+  },
+  "updatedAt": "2026-05-24T12:45:10.120Z",
+  "profileImage": "/api/uploads/1779627010120.jpg"
+}
+]
