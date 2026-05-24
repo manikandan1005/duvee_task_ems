@@ -1,13 +1,21 @@
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import redis from "@/app/lib/redis";
 
-const AUTH_FILE = path.join(process.cwd(), "app", "data", "auth.json");
-const EMP_FILE  = path.join(process.cwd(), "app", "data", "employees.json");
+async function readAuth(): Promise<any[]> {
+  const data = await redis.get("auth");
+  if (!data) return [];
+  return typeof data === "string" ? JSON.parse(data) : data as any[];
+}
+
+async function readEmployees(): Promise<any[]> {
+  const data = await redis.get("employees");
+  if (!data) return [];
+  return typeof data === "string" ? JSON.parse(data) : data as any[];
+}
 
 export async function GET() {
   try {
-    return NextResponse.json(JSON.parse(fs.readFileSync(AUTH_FILE, "utf-8")));
+    return NextResponse.json(await readAuth());
   } catch (e: any) {
     return NextResponse.json({ status: false, message: e.message });
   }
@@ -16,13 +24,9 @@ export async function GET() {
 export async function POST(req: Request) {
   try {
     const { username, password } = await req.json();
+    const authUsers = await readAuth();
+    const employees = await readEmployees();
 
-    const authUsers = JSON.parse(fs.readFileSync(AUTH_FILE, "utf-8"));
-    const employees = fs.existsSync(EMP_FILE)
-      ? JSON.parse(fs.readFileSync(EMP_FILE, "utf-8"))
-      : [];
-
-    // 1. Check auth.json by username + password
     const authUser = authUsers.find(
       (u: any) => u.username === username && u.password === password
     );
@@ -32,7 +36,7 @@ export async function POST(req: Request) {
         status: true,
         message: "Login Success",
         user: {
-          employeeId: authUser.employeeId,  // EMP-xxx or null for admin
+          employeeId: authUser.employeeId,
           username:   authUser.username,
           password:   authUser.password,
           status:     "Active",
@@ -41,7 +45,6 @@ export async function POST(req: Request) {
       });
     }
 
-    // 2. Not found or wrong password
     const exists = authUsers.some((u: any) => u.username === username)
                 || employees.some((e: any) => e.email === username);
 
@@ -49,7 +52,6 @@ export async function POST(req: Request) {
       status: false,
       message: exists ? "Invalid password" : "User not found",
     });
-
   } catch (e: any) {
     return NextResponse.json({ status: false, message: e.message });
   }

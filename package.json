@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@ant-design/icons": "^6.2.3",
+    "@upstash/redis": "^1.38.0",
+    "@vercel/blob": "^2.4.0",
     "antd": "^6.4.3",
+    "dotenv": "^17.4.2",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
